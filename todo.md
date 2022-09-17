@@ -17,7 +17,7 @@
 -  ~~eliminate import error~~
 -  add testing
 - add book button with calendar of dates?
-- (maybe) edit form
-- (maybe) listing filters
-- (messages maybeee)
+- edit form
+- listing filters
+- messages
 
