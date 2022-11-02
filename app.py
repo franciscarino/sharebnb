@@ -15,7 +15,7 @@ load_dotenv()
 
 CURR_USER_KEY = "curr_user"
 
-database_url = os.environ['DATABASE_URL1']
+database_url = os.environ['DATABASE_URL']
 database_url = database_url.replace('postgres://', 'postgresql://')
 
 app = Flask(__name__)
