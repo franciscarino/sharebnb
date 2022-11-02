@@ -15,12 +15,12 @@ load_dotenv()
 
 CURR_USER_KEY = "curr_user"
 
-# database_url = os.environ['DATABASE_URL']
-# database_url = database_url.replace('postgres://', 'postgresql://')
+database_url = os.environ['HEROKU_POSTGRESQL_RED_URL']
+database_url = database_url.replace('postgres://', 'postgresql://')
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://lxjnheldjlrrzs:ae321e9f0175b4a31ec22da49e0abd85f38a96290ce124b099b82bcf85b2ec1d@ec2-3-213-66-35.compute-1.amazonaws.com:5432/dbah3n36jbafn9'
+app.config['SQLALCHEMY_DATABASE_URI'] = database_url
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = False
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = True
