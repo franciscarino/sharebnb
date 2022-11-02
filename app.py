@@ -20,7 +20,7 @@ CURR_USER_KEY = "curr_user"
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'DATABASE_URL'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://lxjnheldjlrrzs:ae321e9f0175b4a31ec22da49e0abd85f38a96290ce124b099b82bcf85b2ec1d@ec2-3-213-66-35.compute-1.amazonaws.com:5432/dbah3n36jbafn9'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = False
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = True
