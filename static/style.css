@@ -1,7 +1,7 @@
 .listing-card {
   width: 400px;
   margin-bottom: 1rem;
-
+  height: 440px
 }
 
 .card-link {
@@ -30,6 +30,12 @@
 
 .card-title {
   font-weight: bold;
+}
+
+.card-img-top {
+  max-height: 250px;
+  min-height: 250px;
+  object-fit: cover;
 }
 
 .bi-search {
