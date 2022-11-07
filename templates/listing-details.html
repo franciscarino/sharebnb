@@ -4,7 +4,7 @@
   <div class="details-container">
     <div class="listing-detail-container">
       <div class="card mb-3 listing-detail">
-        <img src={{listing.photo_url}} class="card-img-top" alt={{listing.title}}>
+        <img src={{listing.photo_url}} class="card-img-top-listing-detail" alt={{listing.title}}>
         <div class="card-body">
           <h5 class="card-title">{{listing.title}}</h5>
           <p class="card-text">Hosted by <a href="/users/{{listing.created_by}}"
@@ -26,7 +26,7 @@
     </form>
     {% endif %}
 
-    {% if g.user.username != listing.created_by and not listing.rented_by  %}
+    {% if g.user.username != listing.created_by and not listing.rented_by %}
     <form method="POST" action="/listings/{{ listing.id }}/reserve">
       {{ g.csrf_form.hidden_tag() }}
       <button id="reserve-btn" class="btn btn-primary btn-lg">Reserve</button>

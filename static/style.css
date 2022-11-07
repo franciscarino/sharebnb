@@ -36,6 +36,14 @@
   max-height: 250px;
   min-height: 250px;
   object-fit: cover;
+  border-radius: 2px;
+}
+
+.card-img-top-listing-detail {
+  /* max-height: 250px;
+  min-height: 250px; */
+  object-fit: cover;
+  border-radius: 2px;
 }
 
 .bi-search {
