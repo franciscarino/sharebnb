@@ -15,7 +15,7 @@ Inspired by Airbnb, ShareBnB is an application that allows users to find vacatio
 - SQL Alchemy
 - Jinja 
 - WTForms
-- bcrype
+- bcrypt
 - HTML
 - CSS
 - Bootstrap
