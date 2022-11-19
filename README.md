@@ -19,12 +19,16 @@ Inspired by Airbnb, ShareBnB is an application that allows users to find vacatio
 - CSS
 - Bootstrap
 
+
 ### Run on your machine
 
 ```
 git clone https://github.com/franciscarino/sharebnb.git
 flask run -p 5001
 ```
+This runs the app in the development mode.
+Open http://localhost:5001 to view it in your browser.
+
 
 ### Enviornment Variables
 * SECRET_KEY
