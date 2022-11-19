@@ -2,6 +2,8 @@
 
 Inspired by Airbnb, ShareBnB is an application that allows users to find vacation rentals, cabins, beach houses, unique homes and experiences around the world. Logged-in users can reserve other users' listings and add/delete listings of their own. This application was built with Flask and Jinja. 
 
+![SharebnbDemoGif](https://raw.githubusercontent.com/franciscarino/sharebnb/78d768e9b2a51cdeca899613515bca079a9c73de/sharebnb-demo.gif)
+
 [Demo](https://fc-sharebnb.herokuapp.com/listings)
 
 ### Tech Stack
