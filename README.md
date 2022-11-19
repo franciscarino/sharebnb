@@ -52,21 +52,6 @@ This runs the app in the development mode.
 Open [http://localhost:5001](http://localhost:5001) to view it in your browser.
 
 
-### Enviornment Variables
-* SECRET_KEY
-* AWS_BUCKET_NAME
-* AWS_ACCESS_KEY
-* AWS_SECRET_ACCESS_KEY
-* AWS_DOMAIN
-* IMAGE_URL
-* DATABASE_URL
-* AWS_SECRET_ACCESS_KEY
-* BUCKETEER_AWS_ACCESS_KEY_ID
-* BUCKETEER_AWS_REGION
-* BUCKETEER_AWS_SECRET_ACCESS_KEY
-* BUCKETEER_BUCKET_NAME
-
-
 ### Future Features to Add
 
 * Thorough testing
