@@ -22,13 +22,34 @@ Inspired by Airbnb, ShareBnB is an application that allows users to find vacatio
 
 
 ### Run on your machine
-
+1. Clone the repository, create a virtual environment and install depencencies
 ```
-git clone https://github.com/franciscarino/sharebnb.git
-flask run -p 5001
+$ git clone https://github.com/franciscarino/sharebnb.git
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv) $ pip install -r requirements.txt
+```
+
+2. Setup the database
+```
+(venv) $ psql
+=# CREATE DATABASE sharebnb;
+=# (control-d)
+(venv) $ python seed.py
+```
+
+3. *Create .env file for config
+```
+SECRET_KEY=*****
+DATABASE_URL=postgresql:///sharebnb
+```
+
+4. Start the server and view in browser
+```
+$ flask run -p 5001
 ```
 This runs the app in the development mode.
-Open http://localhost:5001 to view it in your browser.
+Open [http://localhost:5001](http://localhost:5001) to view it in your browser.
 
 
 ### Enviornment Variables
