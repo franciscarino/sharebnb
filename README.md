@@ -4,6 +4,10 @@ Inspired by Airbnb, ShareBnB is an application that allows users to find vacatio
 
 [Demo](https://fc-sharebnb.herokuapp.com/listings)
 
+#### Demo Login ####
+- Username: user1
+- Password: password
+
 ![SharebnbDemoGif](https://raw.githubusercontent.com/franciscarino/sharebnb/78d768e9b2a51cdeca899613515bca079a9c73de/sharebnb-demo.gif)
 
 
