@@ -38,7 +38,7 @@ $ source venv/bin/activate
 (venv) $ python seed.py
 ```
 
-3. *Create .env file for config
+3. Create .env file for config
 ```
 SECRET_KEY=*****
 DATABASE_URL=postgresql:///sharebnb
